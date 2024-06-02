@@ -1,0 +1,263 @@
+
+Easy Configurator, configuration engine  V_3_3 
+
+log created on Fri May 10 00:35:51 2024
+
+Analyzing the project file
+
+Easy Configurator project EtherCATHMISIE.prj
+
+OUTPUTS_TAG
+Line 4 --- out1_8                  uint8_t
+Line 5 --- out9_16                 uint8_t
+Line 6 --- out17_24                uint8_t
+Line 7 --- out25_32                uint8_t
+Line 8 --- out33_40                uint8_t
+Line 9 --- out41_48                uint8_t
+Line 10 --- out49_56                uint8_t
+Line 11 --- out57_64                uint8_t
+INPUTS_TAG
+Line 13 --- enc1                    int32_t
+Line 14 --- enc2                    int32_t
+Line 15 --- analog1                 float
+Line 16 --- analog2                 float
+Line 17 --- analog3                 float
+Line 18 --- analog4                 float
+Line 19 --- in1_8                   uint8_t
+Line 20 --- in9_16                  uint8_t
+Line 21 --- in17_24                 uint8_t
+Line 22 --- in25_32                 uint8_t
+Line 23 --- in33_40                 uint8_t
+Line 24 --- in41_48                 uint8_t
+Line 25 --- in49_56                 uint8_t
+Line 26 --- in57_64                 uint8_t
+INFO_TAG
+0x0000079A
+AB&amp;T
+0xDEADBEEF
+0x00000001
+EtherCATHMISIE
+EtherCATHMISIE
+END_TAG
+
+The EtherCATHMISIE.prj configuration file is correct
+
+ByteNumOut 8
+ByteNumIn  32
+PdoNumOut  8
+PdoNumIn   14
+
+Creating the EtherCATHMISIE.xml file
+
+PROJECT_TAG   EtherCATHMISIE.prj
+VENDOID_TAG   0000079A
+VEN_NAM_TAG   AB&amp;T
+PRO_COD_TAG   DEADBEEF
+REVISIO_TAG   00000001
+DEV_NAM_TAG   EtherCATHMISIE
+DEV_NAM_TAG   EtherCATHMISIE
+
+FIRST_TAG
+
+Output entries
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>out1_8</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>out9_16</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>out17_24</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>out25_32</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>5</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>out33_40</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>6</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>out41_48</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>7</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>out49_56</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>8</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>out57_64</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+
+Input entries
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>enc1</Name>
+            <DataType>DINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>enc2</Name>
+            <DataType>DINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>analog1</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>analog2</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>5</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>analog3</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>6</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>analog4</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>7</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>in1_8</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>8</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>in9_16</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>9</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>in17_24</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>10</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>in25_32</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>11</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>in33_40</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>12</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>in41_48</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>13</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>in49_56</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>14</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>in57_64</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+
+LAST_TAG
+
+The EtherCATHMISIE.xml file has been created
+
+Creating the EtherCATHMISIE.h file
+
+#define CUST_BYTE_NUM_OUT	8
+#define CUST_BYTE_NUM_IN	32
+#define TOT_BYTE_NUM_ROUND_OUT	8
+#define TOT_BYTE_NUM_ROUND_IN	32
+
+
+Output entries
+		uint8_t     out1_8;
+		uint8_t     out9_16;
+		uint8_t     out17_24;
+		uint8_t     out25_32;
+		uint8_t     out33_40;
+		uint8_t     out41_48;
+		uint8_t     out49_56;
+		uint8_t     out57_64;
+
+Input entries
+		int32_t     enc1;
+		int32_t     enc2;
+		float       analog1;
+		float       analog2;
+		float       analog3;
+		float       analog4;
+		uint8_t     in1_8;
+		uint8_t     in9_16;
+		uint8_t     in17_24;
+		uint8_t     in25_32;
+		uint8_t     in33_40;
+		uint8_t     in41_48;
+		uint8_t     in49_56;
+		uint8_t     in57_64;
+
+The EtherCATHMISIE.h file has been created
+
+Creating the EtherCATHMISIE.bin file
+
+
+The EtherCATHMISIE.bin file has been created
