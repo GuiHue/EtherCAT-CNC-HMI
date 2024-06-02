@@ -10,7 +10,7 @@ While the PCB is tailored to the specific needs of the panel referenced above, t
 
 For a map of pin to physical keys, see this [figure](https://github.com/Watze85/TWSSIO_V1.0_840C/blob/main/Bilder/Signale.png) in the previously listed repository.
 
-The firmware was developed based on MBED OS and the EasyCAT library. Minutes changes were made, hence the sources include a copy of the library.
+The firmware was developed based on MBED OS and the EasyCAT library. Minutes changes were made, hence the sources include a copy of the library. Sources are available [here](https://github.com/GuiHue/EtherCAT-CNC-HMI-Code).
 
 ## Physical Setup
 The system contains two PCBs. 
@@ -60,7 +60,7 @@ The system contains two PCBs.
     This project was developed using the browser based version of Keil Studio. Please ensure that you have an account at [studio.keil.arm.com](https://studio.keil.arm.com/auth/login) and login.
 2) Import Project
     - In your browser with keil studio go to File > Clone
-    - Enter this the following URL in the URL field: https://github.com/GuiHue/EtherCATHMI-Sie 
+    - Enter this the following URL in the URL field: https://github.com/GuiHue/EtherCAT-CNC-HMI-Code 
     - Enter a project name of your liking
 
     _NOTE_: The code repository is separate from this repo due to compatabilitiy with Keil Studio and its default project structure. 
@@ -69,7 +69,7 @@ The system contains two PCBs.
     - Connect your Nucleo Board with the appropriate USB cable to your computer. Make sure that the power supply jumpers are set so that power is received via USB. Check the [manual](https://www.st.com/resource/en/user_manual/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf). For a Nucleo F-303RE it should be JP5 set to U5V.
     - Open the newly imported project, making sure the the desired project is the currently "Active project"
     - In the top right corner, go to "Build Target" and click to select a build target. Choose "NUCLEO-F303RE"  
-    - Click "Build" (Hammer icon) and wait. This may take a few minutes. When done, a download will appear automatically (*.bin file). A copy of this binary is supplied in folder firmware-bin of this repo.
+    - Click "Build" (Hammer icon) and wait. This may take a few minutes. When done, a download will appear automatically (*.bin file). 
     - To flash the firmware, use the "Play" button. During startup of Keil Studio, your browser likely will ask for permission to access a USB device. This needs to be accepted.
     - After flashing, the console should indicate success.
     - Done.
